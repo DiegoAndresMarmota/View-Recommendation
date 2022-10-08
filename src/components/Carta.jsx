@@ -6,6 +6,7 @@ function Carta() {
         <div className='carta-container'>
             <div>
                 <img className='carta-img' src={Gato1} alt="carta-imagen-perfil" />
+                <h3 className='carta-nombre'>Gato1</h3>
                 <p className='carta-calificacion'>
                     <i class="fa-regular fa-star"></i>
                 </p>
