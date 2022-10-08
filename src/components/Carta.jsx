@@ -1,18 +1,17 @@
 import React from 'react';
-import Gato1 from '../img/gato1.jpg';
 
-function Carta() {
+function Carta({imagen, nombre, calificacion, lorem}) {
     return (
         <div className='carta-container'>
             <div>
-                <img className='carta-img' src={Gato1} alt="carta-imagen-perfil" />
-                <h3 className='carta-nombre'>Gato1</h3>
+                <img className='carta-img' src={imagen} alt="carta-imagen-perfil" />
+                <h3 className='carta-nombre'>{nombre}</h3>
                 <p className='carta-calificacion'>
-                    <i class="fa-regular fa-star"></i>
+                    {calificacion}
                 </p>
             </div>
             <div>
-                <p className='carta-lorem'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, perspiciatis?</p>
+                <p className='carta-lorem'>{lorem}</p>
                 <button className='carta-valoracion'>
                     <i class="fa-solid fa-thumbs-up"></i>
                 </button>
