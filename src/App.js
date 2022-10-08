@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/index.css';
 import Carta from './components/Carta';
 
 function App() {
