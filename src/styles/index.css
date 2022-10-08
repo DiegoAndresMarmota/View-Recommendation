@@ -1,6 +1,8 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: rgb(253, 244, 244);
+  margin: 0px;
+  padding: 0px;
 }
 
 .carta-container {
@@ -9,15 +11,19 @@ body {
   width: 400px;
   height: 200px;
   border-radius: 12px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 10px;
   gap: 24px;
   align-items: center;
   padding: 24px;
 }
 
 .carta-img {
-  width: 120px;
-  border-radius: 20%;
+  height: auto;
+  width: auto;
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 5%;
 }
 
 .carta-nombre {
