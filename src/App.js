@@ -7,6 +7,7 @@ import Gato2 from './img/gato2.jpg';
 import Gato3 from './img/gato3.jpg';
 
 
+
 function App() {
   return (
     <div className='container-principal'>
@@ -15,6 +16,7 @@ function App() {
         nombre="Mr. Galleta"
         calificacion="⚡⚡⚡⚡"
         lorem="Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, distinctio?"
+
       />
       <Carta
         imagen={Gato2}
