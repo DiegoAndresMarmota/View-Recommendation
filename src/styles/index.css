@@ -32,3 +32,11 @@ body {
   margin-top: 5px;
   color: rgb(44, 41, 41);
 }
+
+.carta-contenido {
+  text-align: center;
+}
+
+.carta-valoracion {
+  margin: 5px;
+}
