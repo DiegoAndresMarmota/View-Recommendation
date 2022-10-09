@@ -1,4 +1,6 @@
 import React from 'react';
+import { useState } from 'react';
+import Button from './components/Button';
 import './styles/App.css';
 import './styles/index.css';
 import Carta from './components/Carta';
@@ -7,6 +9,9 @@ import Gato2 from './img/gato2.jpg';
 import Gato3 from './img/gato3.jpg';
 
 function App() {
+
+  const [modo, setModo] = useState('vistaDia');
+
   return (
     <div className='container-principal'>
       <Carta
