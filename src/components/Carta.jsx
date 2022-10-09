@@ -2,10 +2,6 @@ import React from 'react';
 
 function Carta({ imagen, nombre, calificacion, lorem }) {
 
-    function onClick() {
-        console.log('marcado')
-    }
-
     return (
         <div className='carta-container'>
             <div>
@@ -17,10 +13,10 @@ function Carta({ imagen, nombre, calificacion, lorem }) {
                 <p className='carta-calificacion'>
                     {calificacion}
                 </p>
-                <button onClick={onClick} className='carta-valoracion'>
+                <button className='carta-valoracion'>
                     <i class="fa-solid fa-thumbs-up"></i>
                 </button>
-                <button onClick={onClick} className='carta-valoracion'>
+                <button className='carta-valoracion'>
                     <i class="fa-solid fa-thumbs-down"></i>
                 </button>
             </div>

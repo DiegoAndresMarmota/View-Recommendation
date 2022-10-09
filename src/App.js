@@ -6,8 +6,6 @@ import Gato1 from './img/gato1.jpg';
 import Gato2 from './img/gato2.jpg';
 import Gato3 from './img/gato3.jpg';
 
-
-
 function App() {
   return (
     <div className='container-principal'>
